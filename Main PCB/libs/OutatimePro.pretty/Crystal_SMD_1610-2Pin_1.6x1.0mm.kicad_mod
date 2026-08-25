@@ -1,0 +1,145 @@
+(footprint "Crystal_SMD_1610-2Pin_1.6x1.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2012/2, Crystal, 2.0x1.2mm package, SMD, http://txccrystal.com/images/pdf/9ht11.pdf")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "bfa24600-8c9d-44fa-8383-90ba9d4fad66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_1610-2Pin_1.6x1.0mm"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "976026db-8c26-46d6-8f3b-83df82fd175b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9be76928-c15e-41fe-9d99-a4bae97d744f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d32588ad-7d96-47af-9524-841be4253fb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "crystal_resonator_oscillator"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e9ecd9b3-f35c-48bc-9616-fe7550fa6dae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.3 0.6)
+		(end 0.3 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "987fb2aa-f339-4b61-9193-524a398b99c9")
+	)
+	(fp_line
+		(start 0.3 -0.6)
+		(end -0.3 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ed36b89-9b2a-4d7f-8305-67a9a04082b4")
+	)
+	(fp_rect
+		(start -1 -0.7)
+		(end 1 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6fa207d8-f3b9-46d0-aeba-69d730c2c526")
+	)
+	(fp_poly
+		(pts
+			(xy 0.9 -0.6) (xy 0.9 0.6) (xy -0.9 0.6) (xy -0.9 -0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ba62d420-1dc9-42d8-8a4b-9385ed98bda9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "77b71f31-68ae-4ea9-a4fc-3f13d33f95eb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.55 0)
+		(size 0.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c168287c-252c-448b-8ce9-7df2452a4028")
+	)
+	(pad "2" smd roundrect
+		(at 0.55 0)
+		(size 0.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "de69a1c1-089e-467f-9e14-ab110e018fdc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/OutatimePro.pretty/packages3d/Crystal_SMD_1610-2Pin_1.6x1.0mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

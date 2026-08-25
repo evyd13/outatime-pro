@@ -1,0 +1,145 @@
+(footprint "TH_0402_1005Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.16 0)
+		(layer "F.SilkS")
+		(uuid "ea9d8db4-e5af-48dc-91f4-8cdb93a39a02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TH_0402_1005Metric"
+		(at 0 1.16 0)
+		(layer "F.Fab")
+		(uuid "81c602ad-2f1e-43e2-8d96-42658421dc7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e913253-d6bb-4909-baae-81d5e77765c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d10404ab-e9a8-42d8-b0a5-0dc97f6bc993")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ffa99477-68f2-443e-a9d6-75cfc955b02e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.107836 -0.36)
+		(end 0.107836 -0.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "817391ac-9e1f-4c59-9d82-756aaf8a6ae4")
+	)
+	(fp_line
+		(start -0.107836 0.36)
+		(end 0.107836 0.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e02df729-1da3-46e5-a3aa-ffb9393e647e")
+	)
+	(fp_rect
+		(start -0.91 -0.46)
+		(end 0.91 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5c871215-2a53-476d-b288-5573258a6330")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "70320ba4-72bb-4d3a-9bc8-f010daa8b1c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6b98e8f8-63f5-4364-b2c0-9d13333318fe")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.48 0)
+		(size 0.56 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f5278c39-8789-431e-af73-77ace993066a")
+	)
+	(pad "2" smd roundrect
+		(at 0.48 0)
+		(size 0.56 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "77e98d05-0d99-4c1f-8058-3e0a6f1c11eb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/OutatimePro.pretty/packages3d/TH_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

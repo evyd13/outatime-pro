@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Connector_USB_PCB_Edge") (type "KiCad") (uri "${KIPRJMOD}/libs/Connector_USB_PCB_Edge.kicad_sym") (options "") (descr ""))
+	(lib (name "OutatimePro") (type "KiCad") (uri "${KIPRJMOD}/libs/OutatimePro.kicad_sym") (options "") (descr ""))
+)
