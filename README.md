@@ -7,7 +7,7 @@ THIS IS NOT TESTED IN ANY WAY. DO NOT ORDER THIS THINKING IT WILL WORK. FIRMWARE
 However, the PCB design is done.
 
 ## Version number
-Version number is vDDMMyy, August 25th 2026 would be v250826.
+Version number is date formate yyMMDD, August 25th 2026 would be v260825.
 
 # To-Do
 The following still needs work:

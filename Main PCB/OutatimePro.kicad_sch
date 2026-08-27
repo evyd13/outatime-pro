@@ -12775,7 +12775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OutatimePro:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.0mm"
 			(at 173.99 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13862,7 +13862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OutatimePro:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.0mm"
 			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15271,7 +15271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OutatimePro:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.0mm"
 			(at 45.72 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19712,7 +19712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OutatimePro:TestPoint_Pad_D0.75mm"
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.0mm"
 			(at 140.97 38.1 0)
 			(hide yes)
 			(show_name no)
