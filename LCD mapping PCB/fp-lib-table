@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CA53W_LCD_mapping") (type "KiCad") (uri "${KIPRJMOD}/libs/CA53W_LCD_mapping.pretty") (options "") (descr ""))
+)
