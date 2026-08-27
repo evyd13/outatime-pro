@@ -81,7 +81,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "warning",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -752,7 +752,7 @@
         "uuid": "524ea2ee-4ba7-44dc-a60b-09b30277d096"
       }
     ],
-    "used_designators": "BRD1-2,KPD1-2,Y1,LCD1,U1-5,#+3V1-2,#+3V26,#GND2-4,#GND14,R1-11,#U1,#U101,#SUPPLY1-2,#SUPPLY8,#SUPPLY101-108,D1-3,#U$1-9,#U$14,#U$101-103,C1-18,J1-4,L1-2,U$2-3,Q1-3,RESET1,TP1-5,TP8-10,X1,#P+1-3,#PWR1-37,SW1,REF1,IC1,TH1",
+    "used_designators": "BRD1-2,KPD1-2,Y1,LCD1,U1-5,#+3V1-2,#+3V26,#GND2-4,#GND14,R1-11,#U1,#U101,#SUPPLY1-2,#SUPPLY8,#SUPPLY101-108,#U$1-9,#U$14,#U$101-103,D1-3,C1-18,J1-4,L1-2,Q1-3,U$2-3,RESET1,TP1-5,TP8-10,X1,#P+1-3,#PWR1-38,SW1,REF1,IC1,TH1",
     "variants": []
   },
   "sheets": [

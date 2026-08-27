@@ -8016,6 +8016,12 @@
 		(uuid "fb2c9dd8-5330-4a8c-b36f-21809cd69ed4")
 	)
 	(junction
+		(at 336.55 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc0c1f5-57b9-48bb-995d-d8381af58c74")
+	)
+	(junction
 		(at 114.3 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8238,6 +8244,16 @@
 			(type default)
 		)
 		(uuid "11acbdd3-734c-4566-ba92-976b28cacab5")
+	)
+	(wire
+		(pts
+			(xy 323.85 134.62) (xy 323.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1268f43a-7ab7-437b-a0bb-fc4be92c9631")
 	)
 	(wire
 		(pts
@@ -10278,6 +10294,16 @@
 			(type default)
 		)
 		(uuid "dc60ffcd-91bb-4509-a8c3-42a63b5e87d2")
+	)
+	(wire
+		(pts
+			(xy 328.93 134.62) (xy 323.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1d0617-c717-43af-a81d-78baa5e35b35")
 	)
 	(wire
 		(pts
@@ -12923,6 +12949,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 332.74 134.62 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fa919ea-3d08-4773-80c8-d1f7401bca3a")
+		(property "Reference" "C18"
+			(at 332.74 141.224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 332.74 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 336.55 135.5852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 332.74 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 332.74 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max Height" ""
+			(at 332.74 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b162bd0-59fd-450b-b6e6-b3ddef5c97e0")
+		)
+		(pin "2"
+			(uuid "bc64d69c-1b9d-4d74-92c9-1247c7eb4c8c")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 264.16 30.48 0)
 		(mirror y)
@@ -15311,6 +15439,85 @@
 			(project "OutatimePro"
 				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 323.85 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73df1561-eaa7-434f-b52e-886c0dba176a")
+		(property "Reference" "#PWR038"
+			(at 323.85 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.85 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 323.85 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "153ffd3c-41e4-48c1-973d-07dab5c00792")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
