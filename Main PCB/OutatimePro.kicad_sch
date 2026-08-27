@@ -175,14 +175,21 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 2.54 11.43 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -191,8 +198,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
-				(at 2.54 8.89 0)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -201,19 +208,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-				(at 0 -15.24 0)
+			(property "Footprint" ""
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -223,7 +219,18 @@
 					)
 				)
 			)
-			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -234,7 +241,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -245,7 +252,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*TC2030*"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -256,11 +263,25 @@
 					)
 				)
 			)
-			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
-				(pin power_in line
-					(at -2.54 10.16 270)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
 					(length 2.54)
-					(name "VCC"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -273,112 +294,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "TMS" bidirectional line)
-				)
-				(pin open_collector line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "TCK" output line)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "SWO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "TDO" input line)
-				)
-			)
-			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -5791,6 +5706,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OutatimePro:OSO_SWD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OSO_SWD"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OSO_SWD_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OSO_SWD_1_1"
+				(pin bidirectional line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OutatimePro:PAM8904EGPR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7803,6 +7884,12 @@
 		(uuid "73f40aa8-2701-44f8-bc7f-433a6f8b3a4e")
 	)
 	(junction
+		(at 91.44 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b9bbcf-ba34-4228-848c-5f43c639c1bb")
+	)
+	(junction
 		(at 91.44 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7843,6 +7930,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0f0d8a0-acec-4bb9-aeca-3d0d38f9596a")
+	)
+	(junction
+		(at 100.33 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c473a7-0b6c-45d1-a5de-7ccb940d6abe")
 	)
 	(junction
 		(at 59.69 55.88)
@@ -7911,6 +8004,12 @@
 		(uuid "eb0bf5a1-35a1-4d63-8258-abd1f2457428")
 	)
 	(junction
+		(at 100.33 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2dbe21e-a24b-47b6-8695-e9d3449bed2c")
+	)
+	(junction
 		(at 271.78 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7943,10 +8042,6 @@
 	(no_connect
 		(at 41.91 83.82)
 		(uuid "2a3f0770-ac80-4d0a-961a-00fc0adc564e")
-	)
-	(no_connect
-		(at 58.42 226.06)
-		(uuid "e89d73e6-7996-4250-9588-c658aac217a0")
 	)
 	(no_connect
 		(at 388.62 233.68)
@@ -8091,6 +8186,16 @@
 			(type default)
 		)
 		(uuid "0c8cfddb-856c-46d7-b864-0f19b0119356")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8ddd7b-0d28-4aac-9678-2c63199bc895")
 	)
 	(wire
 		(pts
@@ -8424,16 +8529,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 207.01) (xy 48.26 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cffa119-3ad5-45d5-ab54-1e674c26fed5")
-	)
-	(wire
-		(pts
 			(xy 323.85 33.02) (xy 321.31 33.02)
 		)
 		(stroke
@@ -8704,7 +8799,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 78.74) (xy 139.7 78.74)
+			(xy 41.91 78.74) (xy 100.33 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8781,6 +8876,16 @@
 			(type default)
 		)
 		(uuid "521e81c0-52fe-46dd-8722-fb3ab54a2fbc")
+	)
+	(wire
+		(pts
+			(xy 36.83 210.82) (xy 46.99 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5475d36e-5ae5-45c9-8a72-ee435d39b61e")
 	)
 	(wire
 		(pts
@@ -8861,6 +8966,16 @@
 			(type default)
 		)
 		(uuid "5aafa229-6f64-475c-acea-5ce87c8a1256")
+	)
+	(wire
+		(pts
+			(xy 36.83 213.36) (xy 46.99 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1b2d86-0274-47ab-946f-163ca52e4d1d")
 	)
 	(wire
 		(pts
@@ -9064,13 +9179,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 223.52) (xy 58.42 223.52)
+			(xy 43.18 208.28) (xy 36.83 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70ee1358-6167-469b-be0f-457f1d267ef6")
+		(uuid "7122f1be-c09b-4781-9689-04d38265a7dd")
 	)
 	(wire
 		(pts
@@ -9244,6 +9359,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 215.9) (xy 36.83 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83870573-adf3-4054-9355-a15c46f02f5d")
+	)
+	(wire
+		(pts
 			(xy 374.65 196.85) (xy 374.65 203.2)
 		)
 		(stroke
@@ -9354,16 +9479,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 233.68) (xy 48.26 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c654af2-46fd-4ac5-95dd-b47bbfc638e0")
-	)
-	(wire
-		(pts
 			(xy 85.09 135.89) (xy 95.25 135.89)
 		)
 		(stroke
@@ -9391,16 +9506,6 @@
 			(type default)
 		)
 		(uuid "8de25b76-6181-4bda-8b71-e1eac70bdedb")
-	)
-	(wire
-		(pts
-			(xy 63.5 220.98) (xy 58.42 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5f933e-4c54-4363-b9aa-7880ec811c24")
 	)
 	(wire
 		(pts
@@ -9444,6 +9549,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90048fc6-6c83-4b0f-9da8-ec05415468d5")
+	)
+	(wire
+		(pts
 			(xy 91.44 153.67) (xy 116.84 153.67)
 		)
 		(stroke
@@ -9481,6 +9596,16 @@
 			(type default)
 		)
 		(uuid "92b5a073-4e61-4807-907d-59e2e220b0a4")
+	)
+	(wire
+		(pts
+			(xy 43.18 205.74) (xy 36.83 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95663b8f-836d-46a2-a655-d1dab6cc18aa")
 	)
 	(wire
 		(pts
@@ -9691,6 +9816,16 @@
 			(type default)
 		)
 		(uuid "a7a8a3b6-d1f8-47d9-9d96-60970dfd10c4")
+	)
+	(wire
+		(pts
+			(xy 46.99 205.74) (xy 46.99 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8870550-486a-44ef-8939-b5169a249b4d")
 	)
 	(wire
 		(pts
@@ -10044,7 +10179,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 81.28) (xy 139.7 81.28)
+			(xy 41.91 81.28) (xy 100.33 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10394,16 +10529,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 215.9) (xy 58.42 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efecb8e0-4c18-4ce3-a9bc-0c451c68cd35")
-	)
-	(wire
-		(pts
 			(xy 336.55 105.41) (xy 336.55 107.95)
 		)
 		(stroke
@@ -10411,6 +10536,16 @@
 			(type default)
 		)
 		(uuid "f10f7262-4ba8-4e75-a626-fa004e827c34")
+	)
+	(wire
+		(pts
+			(xy 46.99 213.36) (xy 46.99 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15c8c94-fcc0-4663-af02-47af9515aed7")
 	)
 	(wire
 		(pts
@@ -10683,12 +10818,12 @@
 		(uuid "26dfc8cd-6d66-4f6c-b487-3281d46ec483")
 	)
 	(label "~{RESET}"
-		(at 63.5 215.9 0)
+		(at 43.18 205.74 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "295e10b6-e3b3-496b-b317-5f3d4395e21d")
 	)
@@ -10803,12 +10938,12 @@
 		(uuid "39fe8c78-c4db-424a-b176-8835b175c0e9")
 	)
 	(label "SWDIO"
-		(at 63.5 223.52 0)
+		(at 43.18 215.9 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3aeaad94-35fd-435f-8b85-70c0670000eb")
 	)
@@ -11713,12 +11848,12 @@
 		(uuid "d7cf4b79-b80e-4a1d-8cec-044d6d6e8787")
 	)
 	(label "SWCLK"
-		(at 63.5 220.98 0)
+		(at 43.18 208.28 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "da1b1c7b-7c09-4d3f-b1ca-f0ad0199b7c3")
 	)
@@ -12140,6 +12275,95 @@
 		)
 	)
 	(symbol
+		(lib_id "OutatimePro:OSO_SWD")
+		(at 29.21 210.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0051ee60-4bfc-4078-a34b-d250e1675201")
+		(property "Reference" "J3"
+			(at 29.21 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSO_SWD"
+			(at 29.21 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OutatimePro:OSO_SWD_2x3"
+			(at 29.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9ff38f3-cf55-4776-b7df-c613c1253d44")
+		)
+		(pin "3"
+			(uuid "49549311-c163-43f8-bbf2-43d82a9aabec")
+		)
+		(pin "5"
+			(uuid "175738d7-6d1f-47b8-a88e-ef10c9162b91")
+		)
+		(pin "4"
+			(uuid "b93cef28-b4a6-4fe7-91e8-571d90ddcb90")
+		)
+		(pin "2"
+			(uuid "844fe20f-2e8f-4d69-b849-e196f449eceb")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 133.35 30.48 0)
 		(unit 1)
@@ -12550,6 +12774,85 @@
 			(project "OutatimePro"
 				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 100.33 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd113e8-a945-4811-98ef-dde46fb19877")
+		(property "Reference" "TP1"
+			(at 102.87 74.1679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB+"
+			(at 102.87 76.7079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.5mm"
+			(at 105.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "761e3277-01f1-4fff-bc0e-341357f93461")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -13177,122 +13480,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
-		(at 50.8 220.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28c4bb41-9bdd-4f95-b63e-7ed625e240ca")
-		(property "Reference" "J3"
-			(at 44.45 219.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TagConnect_TC2030-NL"
-			(at 44.45 222.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 50.8 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-			(at 50.8 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
-			(at 50.8 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 50.8 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Max Height" ""
-			(at 50.8 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "8a102c15-f47c-49a7-af9d-05fb7f5e6f0d")
-		)
-		(pin "1"
-			(uuid "1eec1e6e-5a3e-444f-856b-ce4177467ae0")
-		)
-		(pin "3"
-			(uuid "8c1f3cae-2658-4368-a390-e170c0974e81")
-		)
-		(pin "2"
-			(uuid "f160b1eb-5c71-40b9-95f7-00a68e1b0580")
-		)
-		(pin "6"
-			(uuid "94528eb8-e5c1-4c31-8488-0b451a431a60")
-		)
-		(pin "5"
-			(uuid "ec77dc7b-246f-4814-b4a6-0f91c980f930")
-		)
-		(instances
-			(project "OutatimePro"
-				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 271.78 30.48 0)
 		(mirror y)
@@ -13674,6 +13861,85 @@
 			(project "OutatimePro"
 				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 100.33 81.28 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43763f7e-3b5e-4ba1-b98a-5a92176764c6")
+		(property "Reference" "TP2"
+			(at 102.87 85.8521 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB-"
+			(at 102.87 83.3121 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.5mm"
+			(at 105.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 100.33 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53b0a2f1-5e7c-4843-929d-4f9e4db7a8bd")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -15010,6 +15276,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 40.64 90.17 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "707463f2-8ada-4ad8-bc72-d69cc8317548")
+		(property "Reference" "TP4"
+			(at 43.18 94.7421 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 92.2021 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.5mm"
+			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 40.64 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34aa2f5b-7394-421e-a9fc-940b0ea8a07f")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 92.71 0)
 		(unit 1)
@@ -15676,7 +16021,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 48.26 207.01 0)
+		(at 46.99 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15687,7 +16032,7 @@
 		(fields_autoplaced yes)
 		(uuid "770e8957-e771-4064-9f90-7c21fb11ad32")
 		(property "Reference" "#PWR018"
-			(at 48.26 210.82 0)
+			(at 46.99 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15698,7 +16043,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 48.26 201.93 0)
+			(at 46.99 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15708,7 +16053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 207.01 0)
+			(at 46.99 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15719,7 +16064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 207.01 0)
+			(at 46.99 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15730,7 +16075,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 48.26 207.01 0)
+			(at 46.99 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16014,7 +16359,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 233.68 0)
+		(at 46.99 217.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16025,7 +16370,7 @@
 		(fields_autoplaced yes)
 		(uuid "8432d12b-4dab-4be1-bf69-2bdfe8a96619")
 		(property "Reference" "#PWR020"
-			(at 48.26 240.03 0)
+			(at 46.99 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16036,7 +16381,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 238.76 0)
+			(at 46.99 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16046,7 +16391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 233.68 0)
+			(at 46.99 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16057,7 +16402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 233.68 0)
+			(at 46.99 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16068,7 +16413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 233.68 0)
+			(at 46.99 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19365,6 +19710,86 @@
 			(project "OutatimePro"
 				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 91.44 55.88 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f79cd31d-4c28-4fbd-afe5-f8ef3f6de9ef")
+		(property "Reference" "TP3"
+			(at 88.9 57.9119 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3v3"
+			(at 88.9 60.4519 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.5mm"
+			(at 96.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 91.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d19050d-2192-4afa-b134-01d3375b677e")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
