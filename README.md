@@ -4,7 +4,7 @@ A PCB for Casio CA-53W or 3208 module based on the [Sensor Watch Pro](https://gi
 
 # WARNING
 THIS IS NOT TESTED IN ANY WAY. DO NOT ORDER THIS THINKING IT WILL WORK. FIRMWARE DOESN'T EXIST FOR IT YET. IT IS A WORK IN PROGRESS.
-However, the PCB is 
+However, the PCB design is done.
 
 ## Version number
 Version number is vDDMMyy, August 25th 2026 would be v250826.
