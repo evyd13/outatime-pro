@@ -7782,6 +7782,12 @@
 		(uuid "25a3a643-9597-477b-a5d8-3188952206fc")
 	)
 	(junction
+		(at 133.35 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25e67c39-991d-4d8a-9bd0-efd015f33ba2")
+	)
+	(junction
 		(at 114.3 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7810,12 +7816,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35a72d81-3896-466e-8f6a-c9b86edb83e6")
-	)
-	(junction
-		(at 133.35 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36a3b452-bec7-4c0e-9e9f-8ef668ed48e4")
 	)
 	(junction
 		(at 114.3 133.35)
@@ -7884,12 +7884,6 @@
 		(uuid "73f40aa8-2701-44f8-bc7f-433a6f8b3a4e")
 	)
 	(junction
-		(at 91.44 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79b9bbcf-ba34-4228-848c-5f43c639c1bb")
-	)
-	(junction
 		(at 91.44 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7930,12 +7924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0f0d8a0-acec-4bb9-aeca-3d0d38f9596a")
-	)
-	(junction
-		(at 100.33 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1c473a7-0b6c-45d1-a5de-7ccb940d6abe")
 	)
 	(junction
 		(at 59.69 55.88)
@@ -8002,12 +7990,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb0bf5a1-35a1-4d63-8258-abd1f2457428")
-	)
-	(junction
-		(at 100.33 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2dbe21e-a24b-47b6-8695-e9d3449bed2c")
 	)
 	(junction
 		(at 271.78 24.13)
@@ -8186,16 +8168,6 @@
 			(type default)
 		)
 		(uuid "0c8cfddb-856c-46d7-b864-0f19b0119356")
-	)
-	(wire
-		(pts
-			(xy 100.33 78.74) (xy 139.7 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8ddd7b-0d28-4aac-9678-2c63199bc895")
 	)
 	(wire
 		(pts
@@ -8789,7 +8761,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 160.02 81.28)
+			(xy 149.86 81.28) (xy 168.91 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8799,7 +8771,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 78.74) (xy 100.33 78.74)
+			(xy 41.91 78.74) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8919,7 +8891,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 160.02 78.74)
+			(xy 149.86 78.74) (xy 168.91 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9549,16 +9521,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 81.28) (xy 139.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90048fc6-6c83-4b0f-9da8-ec05415468d5")
-	)
-	(wire
-		(pts
 			(xy 91.44 153.67) (xy 116.84 153.67)
 		)
 		(stroke
@@ -10179,7 +10141,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 81.28) (xy 100.33 81.28)
+			(xy 41.91 81.28) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -12781,7 +12743,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 100.33 78.74 0)
+		(at 168.91 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12792,7 +12754,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cd113e8-a945-4811-98ef-dde46fb19877")
 		(property "Reference" "TP1"
-			(at 102.87 74.1679 0)
+			(at 171.45 74.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12803,7 +12765,7 @@
 			)
 		)
 		(property "Value" "USB+"
-			(at 102.87 76.7079 0)
+			(at 171.45 76.7079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12813,8 +12775,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.5mm"
-			(at 105.41 78.74 0)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D0.75mm"
+			(at 173.99 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12825,7 +12787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 78.74 0)
+			(at 173.99 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12836,7 +12798,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 100.33 78.74 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13868,7 +13830,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 100.33 81.28 0)
+		(at 168.91 81.28 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13879,7 +13841,7 @@
 		(dnp no)
 		(uuid "43763f7e-3b5e-4ba1-b98a-5a92176764c6")
 		(property "Reference" "TP2"
-			(at 102.87 85.8521 0)
+			(at 171.45 85.8521 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13890,7 +13852,7 @@
 			)
 		)
 		(property "Value" "USB-"
-			(at 102.87 83.3121 0)
+			(at 171.45 83.3121 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13900,8 +13862,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.5mm"
-			(at 105.41 81.28 0)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D0.75mm"
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13912,7 +13874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13923,7 +13885,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 100.33 81.28 0)
+			(at 168.91 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15309,7 +15271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D0.75mm"
 			(at 45.72 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19717,7 +19679,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 91.44 55.88 0)
+		(at 135.89 38.1 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19729,7 +19691,7 @@
 		(fields_autoplaced yes)
 		(uuid "f79cd31d-4c28-4fbd-afe5-f8ef3f6de9ef")
 		(property "Reference" "TP3"
-			(at 88.9 57.9119 0)
+			(at 133.35 40.1319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19740,7 +19702,7 @@
 			)
 		)
 		(property "Value" "+3v3"
-			(at 88.9 60.4519 0)
+			(at 133.35 42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19750,8 +19712,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.5mm"
-			(at 96.52 55.88 0)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D0.75mm"
+			(at 140.97 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19762,7 +19724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 55.88 0)
+			(at 140.97 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19773,7 +19735,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 91.44 55.88 0)
+			(at 135.89 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
