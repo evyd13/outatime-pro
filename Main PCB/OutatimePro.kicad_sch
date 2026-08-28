@@ -5288,7 +5288,7 @@
 				(pin input line
 					(at 5.08 -7.62 180)
 					(length 5.08)
-					(name "B4"
+					(name "R4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5306,7 +5306,7 @@
 				(pin input line
 					(at 5.08 -5.08 180)
 					(length 5.08)
-					(name "B3"
+					(name "R3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5324,7 +5324,7 @@
 				(pin input line
 					(at 5.08 -2.54 180)
 					(length 5.08)
-					(name "B2"
+					(name "R2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5342,7 +5342,7 @@
 				(pin input line
 					(at 5.08 0 180)
 					(length 5.08)
-					(name "B1"
+					(name "R1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5360,7 +5360,7 @@
 				(pin input line
 					(at 5.08 2.54 180)
 					(length 5.08)
-					(name "A4"
+					(name "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5378,7 +5378,7 @@
 				(pin input line
 					(at 5.08 5.08 180)
 					(length 5.08)
-					(name "A3"
+					(name "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5396,7 +5396,7 @@
 				(pin input line
 					(at 5.08 7.62 180)
 					(length 5.08)
-					(name "A2"
+					(name "C3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5414,7 +5414,7 @@
 				(pin input line
 					(at 5.08 10.16 180)
 					(length 5.08)
-					(name "A1"
+					(name "C4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14103,7 +14103,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4652471d-0066-4f24-a566-bf178e821a1b")
 		(property "Reference" "KPD1"
