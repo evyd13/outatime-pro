@@ -1,6 +1,7 @@
 
 # Outatime Pro
 A PCB for Casio CA-53W or 3208 module based on the [Sensor Watch Pro](https://github.com/joeycastillo/Sensor-Watch). It has the same features!
+![PCB view](img/pcb-preview.png)
 
 # WARNING
 THIS IS NOT TESTED IN ANY WAY. DO NOT ORDER THIS THINKING IT WILL WORK. FIRMWARE DOESN'T EXIST FOR IT YET. IT IS A WORK IN PROGRESS.
