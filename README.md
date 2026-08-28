@@ -5,7 +5,7 @@ A PCB for Casio CA-53W or 3208 module based on the [Sensor Watch Pro](https://gi
 ![PCB view](img/pcb-preview.png)
 
 # Firmware
-Firmware is being worked on [here](https://github.com/evyd13/second-movement).
+Firmware is being worked on [here](https://github.com/evyd13/second-movement/tree/outatime-pro).
 
 # WARNING
 THIS IS NOT TESTED IN ANY WAY. DO NOT ORDER THIS THINKING IT WILL WORK. FIRMWARE DOESN'T EXIST FOR IT YET. IT IS A WORK IN PROGRESS.
