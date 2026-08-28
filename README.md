@@ -1,6 +1,7 @@
 
 # Outatime Pro
 A PCB for Casio CA-53W or 3208 module based on the [Sensor Watch Pro](https://github.com/joeycastillo/Sensor-Watch). It has the same features!
+
 ![PCB view](img/pcb-preview.png)
 
 # WARNING
@@ -18,3 +19,10 @@ The following still needs work:
 - LCD needs to be mapped (I intend to do this asap)
 - PCB needs to be ordered and tested (I intend to do this in a few months time, need to gather funds for a prototype)
 - It needs to be worn and loved!!
+
+# Thanks to and relevant projects
+- Joey Castillo for Sensor Watch, which this project is mostly based on. https://github.com/joeycastillo/Sensor-Watch/tree/main
+- Travis Goodspeed, for incredible documentation about the Casio CA-53W. https://github.com/travisgoodspeed/goodwatch
+- Vasily Zhuravsky, for a nice USB edge connector library https://github.com/vasya-zh/PCB-Edge-USB-connector-KiCad-library
+- Dmitry Teplitsky, for making me think I can do it https://github.com/icelord75/icesio
+- Greg Davill, for pointing the way to a microcontroller to use. https://github.com/gregdavill/advent-calendar-of-circuits-2020/tree/main/arm-watch
