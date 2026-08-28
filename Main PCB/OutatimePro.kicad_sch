@@ -10745,6 +10745,16 @@
 		)
 		(uuid "0c406f4c-7d36-4f5a-83fc-ebfec4061fae")
 	)
+	(label "KPD_C1"
+		(at 101.6 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e0f60ae-ef9f-4cb8-a659-d992ec1903b1")
+	)
 	(label "SEG25"
 		(at 243.84 143.51 180)
 		(effects
@@ -10815,6 +10825,16 @@
 		)
 		(uuid "204115cd-87a4-4181-8824-e9507acf61f4")
 	)
+	(label "KPD_C3"
+		(at 101.6 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2216c4b9-3deb-4071-8673-1b9459f114bb")
+	)
 	(label "USB_N"
 		(at 104.14 190.5 0)
 		(effects
@@ -10855,7 +10875,7 @@
 		)
 		(uuid "24eb7f0d-7263-426d-8ebb-a5313add3429")
 	)
-	(label "KPD_A3"
+	(label "KPD_C2"
 		(at 289.56 185.42 180)
 		(effects
 			(font
@@ -10945,6 +10965,16 @@
 		)
 		(uuid "31ab9b1e-1311-4a93-bba1-2588c955f7ce")
 	)
+	(label "KPD_R2"
+		(at 101.6 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "329d638c-7c92-42c5-9873-0edf4cc9d028")
+	)
 	(label "SEG18"
 		(at 243.84 166.37 180)
 		(effects
@@ -10954,6 +10984,16 @@
 			(justify right bottom)
 		)
 		(uuid "337e284b-c4ef-4b2b-aed6-b43cc21d31fb")
+	)
+	(label "KPD_R1"
+		(at 101.6 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33885617-c2d2-4566-b50f-ef6e329bdf0d")
 	)
 	(label "BUZZER_DIN"
 		(at 342.9 227.33 180)
@@ -11065,7 +11105,7 @@
 		)
 		(uuid "4943aeba-0eb0-4154-a6eb-43e9beb93ee4")
 	)
-	(label "KPD_A1"
+	(label "KPD_C4"
 		(at 289.56 190.5 180)
 		(effects
 			(font
@@ -11094,26 +11134,6 @@
 			(justify left bottom)
 		)
 		(uuid "4c2d789b-e64f-47bd-ae20-f4d769ff6b3b")
-	)
-	(label "KPD_A1"
-		(at 101.6 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d74fd52-83bf-45b7-872b-9677073073bd")
-	)
-	(label "KPD_B4"
-		(at 101.6 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d9a10d6-b94e-4d6b-b049-53242d8fd291")
 	)
 	(label "~{BLUE}"
 		(at 373.38 139.7 180)
@@ -11185,6 +11205,16 @@
 		)
 		(uuid "5c56fb8a-381a-4bbb-978e-1789308190b1")
 	)
+	(label "KPD_R4"
+		(at 101.6 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d3613b5-4698-4192-b319-5f8cf4ef2639")
+	)
 	(label "SEG03"
 		(at 243.84 224.79 180)
 		(effects
@@ -11255,6 +11285,16 @@
 		)
 		(uuid "67621f87-b11c-43f7-a96e-0972c75bc97b")
 	)
+	(label "KPD_R3"
+		(at 101.6 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b7c1743-62af-44a9-bede-51619d42da71")
+	)
 	(label "XIN32"
 		(at 104.14 163.83 0)
 		(effects
@@ -11274,6 +11314,16 @@
 			(justify right bottom)
 		)
 		(uuid "6c88fd35-29e1-44b8-ac0f-e13f5224e17e")
+	)
+	(label "KPD_C4"
+		(at 101.6 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6deb9c35-2e79-4e63-a36c-3c1dc04699fa")
 	)
 	(label "SEG07"
 		(at 243.84 212.09 180)
@@ -11375,25 +11425,15 @@
 		)
 		(uuid "80a8d2a5-f4f0-4ea0-ad08-45d93b3d7231")
 	)
-	(label "KPD_B3"
-		(at 101.6 195.58 0)
+	(label "KPD_C2"
+		(at 101.6 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8160a400-4c56-472b-86e1-0db7838f2b63")
-	)
-	(label "KPD_A2"
-		(at 101.6 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82c0555d-3b61-4e47-9213-8941716f4fa8")
+		(uuid "84a3af9b-8987-4b76-aa4a-75ee25f647eb")
 	)
 	(label "SEG25"
 		(at 289.56 135.89 180)
@@ -11425,7 +11465,7 @@
 		)
 		(uuid "8a7aeaf8-cbe2-4ceb-8af8-d610e943ecb2")
 	)
-	(label "KPD_B1"
+	(label "KPD_R1"
 		(at 289.56 180.34 180)
 		(effects
 			(font
@@ -11475,7 +11515,7 @@
 		)
 		(uuid "8f60df96-bc14-409e-90b1-4b7a380bf659")
 	)
-	(label "KPD_B3"
+	(label "KPD_R3"
 		(at 289.56 175.26 180)
 		(effects
 			(font
@@ -11484,16 +11524,6 @@
 			(justify right bottom)
 		)
 		(uuid "908fb2ea-1036-4c4c-992c-4a6416794cd5")
-	)
-	(label "KPD_B1"
-		(at 101.6 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91b36932-6d22-49a7-bb72-d5572c281b22")
 	)
 	(label "LIGHTSENSE"
 		(at 350.52 92.71 180)
@@ -11525,7 +11555,7 @@
 		)
 		(uuid "95a8951b-bf6f-45ee-956d-d6ed92781452")
 	)
-	(label "KPD_B2"
+	(label "KPD_R2"
 		(at 289.56 177.8 180)
 		(effects
 			(font
@@ -11554,16 +11584,6 @@
 			(justify right bottom)
 		)
 		(uuid "9c5a2c20-82fb-4ee9-92cc-a77b9165b89f")
-	)
-	(label "KPD_A4"
-		(at 101.6 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c8dbda1-1c22-4887-a08e-b36da54a4c9f")
 	)
 	(label "SEG10"
 		(at 289.56 97.79 180)
@@ -11695,17 +11715,7 @@
 		)
 		(uuid "b6117f1d-aa01-4785-8841-b0181427797a")
 	)
-	(label "KPD_A3"
-		(at 101.6 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b66e931d-3d3c-4e9d-9c83-8323c3f98c77")
-	)
-	(label "KPD_A2"
+	(label "KPD_C3"
 		(at 289.56 187.96 180)
 		(effects
 			(font
@@ -11745,7 +11755,7 @@
 		)
 		(uuid "c01964df-59a5-4c16-bbfa-0a31f7d19176")
 	)
-	(label "KPD_A4"
+	(label "KPD_C1"
 		(at 289.56 182.88 180)
 		(effects
 			(font
@@ -11995,7 +12005,7 @@
 		)
 		(uuid "e8f31d5b-c103-462a-933a-05edbc4a4111")
 	)
-	(label "KPD_B4"
+	(label "KPD_R4"
 		(at 289.56 172.72 180)
 		(effects
 			(font
@@ -12054,16 +12064,6 @@
 			(justify right bottom)
 		)
 		(uuid "fbfb9674-6fbd-4ce1-82b6-92957783c715")
-	)
-	(label "KPD_B2"
-		(at 101.6 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcab829f-3b69-45de-87ce-41b35ce57190")
 	)
 	(label "A0"
 		(at 104.14 184.15 0)
