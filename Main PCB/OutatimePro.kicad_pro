@@ -539,6 +539,14 @@
       {
         "name": "Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": ""
+      },
+      {
+        "name": "LED",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -547,7 +555,7 @@
       {
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": ""
@@ -563,6 +571,15 @@
       ],
       "/VLCD": [
         "Power"
+      ],
+      "/~{BLUE}": [
+        "LED"
+      ],
+      "/~{GREEN}": [
+        "LED"
+      ],
+      "/~{RED}": [
+        "LED"
       ],
       "GND": [
         "Power"
