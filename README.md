@@ -17,11 +17,18 @@ Version number is date formate yyMMDD, August 25th 2026 would be v260825.
 # To-Do
 The following still needs work:
 
-- Firmware needs to be written (not my strongest skill, use pins from schematic)
-- Need to figure out if the ATSAML22N comes with bootloader pre-installed, and how to flash it (J-Link?)
-- LCD needs to be mapped (I intend to do this asap)
+- Firmware needs to be finished (work has started!)
 - PCB needs to be ordered and tested (I intend to do this in a few months time, need to gather funds for a prototype)
 - It needs to be worn and loved!!
+
+# Bootloader
+I contacted devolov, they said to me that the firmware needs to be flashed with utils/flash_watch_pyruler using Adafruit PyRuler or Trinket. (I intend to use Seeed XIAO or maybe Pi Pico.)
+
+Bootloader.h is generated from https://github.com/joeycastillo/uf2-samdx1.
+(Thanks @devolov!)
+
+# LCD
+The LCD is fairly simple. It has 35 pins, of which the leftmost is not connected. The first 3 connected pins are common, the rest are segments. Mapping can be found within the emulator svg file or watch_common_display.h.
 
 # Thanks to and relevant projects
 - Joey Castillo for Sensor Watch, which this project is mostly based on. https://github.com/joeycastillo/Sensor-Watch/tree/main
