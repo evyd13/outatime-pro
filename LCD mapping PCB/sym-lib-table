@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "CA53W_LCD_mapping") (type "KiCad") (uri "${KIPRJMOD}/libs/CA53W_LCD_mapping.kicad_sym") (options "") (descr ""))
-)

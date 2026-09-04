@@ -18,6 +18,7 @@ Version number is date formate yyMMDD, August 25th 2026 would be v260825.
 The following still needs work:
 
 - Firmware needs to be finished (work has started!)
+- figure out if the selection signals for PAM need to be connected to GPIO or always HIGH.
 - PCB needs to be ordered and tested (I intend to do this in a few months time, need to gather funds for a prototype)
 - It needs to be worn and loved!!
 

@@ -4458,7 +4458,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SensorCalculatorWatch:ca53lcd"
+			(property "Footprint" "OutatimePro:ca53lcd"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4542,7 +4542,7 @@
 				(pin input line
 					(at 5.08 -43.18 180)
 					(length 5.08)
-					(name "COM0"
+					(name "COM_NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4560,7 +4560,7 @@
 				(pin input line
 					(at 5.08 -40.64 180)
 					(length 5.08)
-					(name "COM1"
+					(name "COM0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4578,7 +4578,7 @@
 				(pin input line
 					(at 5.08 -38.1 180)
 					(length 5.08)
-					(name "COM2"
+					(name "COM1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4596,7 +4596,7 @@
 				(pin input line
 					(at 5.08 -35.56 180)
 					(length 5.08)
-					(name "COM3"
+					(name "COM2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4614,7 +4614,7 @@
 				(pin input line
 					(at 5.08 -33.02 180)
 					(length 5.08)
-					(name "SEG01"
+					(name "SEG00"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4632,7 +4632,7 @@
 				(pin input line
 					(at 5.08 -30.48 180)
 					(length 5.08)
-					(name "SEG02"
+					(name "SEG01"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4650,7 +4650,7 @@
 				(pin input line
 					(at 5.08 -27.94 180)
 					(length 5.08)
-					(name "SEG03"
+					(name "SEG02"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 				(pin input line
 					(at 5.08 -25.4 180)
 					(length 5.08)
-					(name "SEG04"
+					(name "SEG03"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4686,7 +4686,7 @@
 				(pin input line
 					(at 5.08 -22.86 180)
 					(length 5.08)
-					(name "SEG05"
+					(name "SEG04"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4704,7 +4704,7 @@
 				(pin input line
 					(at 5.08 -20.32 180)
 					(length 5.08)
-					(name "SEG06"
+					(name "SEG05"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4722,7 +4722,7 @@
 				(pin input line
 					(at 5.08 -17.78 180)
 					(length 5.08)
-					(name "SEG07"
+					(name "SEG06"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4740,7 +4740,7 @@
 				(pin input line
 					(at 5.08 -15.24 180)
 					(length 5.08)
-					(name "SEG08"
+					(name "SEG07"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4758,7 +4758,7 @@
 				(pin input line
 					(at 5.08 -12.7 180)
 					(length 5.08)
-					(name "SEG09"
+					(name "SEG08"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4776,7 +4776,7 @@
 				(pin input line
 					(at 5.08 -10.16 180)
 					(length 5.08)
-					(name "SEG10"
+					(name "SEG09"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4794,7 +4794,7 @@
 				(pin input line
 					(at 5.08 -7.62 180)
 					(length 5.08)
-					(name "SEG11"
+					(name "SEG10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4812,7 +4812,7 @@
 				(pin input line
 					(at 5.08 -5.08 180)
 					(length 5.08)
-					(name "SEG12"
+					(name "SEG11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4830,7 +4830,7 @@
 				(pin input line
 					(at 5.08 -2.54 180)
 					(length 5.08)
-					(name "SEG13"
+					(name "SEG12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4848,7 +4848,7 @@
 				(pin input line
 					(at 5.08 0 180)
 					(length 5.08)
-					(name "SEG14"
+					(name "SEG13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4866,7 +4866,7 @@
 				(pin input line
 					(at 5.08 2.54 180)
 					(length 5.08)
-					(name "SEG15"
+					(name "SEG14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4884,7 +4884,7 @@
 				(pin input line
 					(at 5.08 5.08 180)
 					(length 5.08)
-					(name "SEG16"
+					(name "SEG15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4902,7 +4902,7 @@
 				(pin input line
 					(at 5.08 7.62 180)
 					(length 5.08)
-					(name "SEG17"
+					(name "SEG16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4920,7 +4920,7 @@
 				(pin input line
 					(at 5.08 10.16 180)
 					(length 5.08)
-					(name "SEG18"
+					(name "SEG17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4938,7 +4938,7 @@
 				(pin input line
 					(at 5.08 12.7 180)
 					(length 5.08)
-					(name "SEG19"
+					(name "SEG18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4956,7 +4956,7 @@
 				(pin input line
 					(at 5.08 15.24 180)
 					(length 5.08)
-					(name "SEG20"
+					(name "SEG19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4974,7 +4974,7 @@
 				(pin input line
 					(at 5.08 17.78 180)
 					(length 5.08)
-					(name "SEG21"
+					(name "SEG20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4992,7 +4992,7 @@
 				(pin input line
 					(at 5.08 20.32 180)
 					(length 5.08)
-					(name "SEG22"
+					(name "SEG21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5010,7 +5010,7 @@
 				(pin input line
 					(at 5.08 22.86 180)
 					(length 5.08)
-					(name "SEG23"
+					(name "SEG22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5028,7 +5028,7 @@
 				(pin input line
 					(at 5.08 25.4 180)
 					(length 5.08)
-					(name "SEG24"
+					(name "SEG23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5046,7 +5046,7 @@
 				(pin input line
 					(at 5.08 27.94 180)
 					(length 5.08)
-					(name "SEG25"
+					(name "SEG24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5064,7 +5064,7 @@
 				(pin input line
 					(at 5.08 30.48 180)
 					(length 5.08)
-					(name "SEG26"
+					(name "SEG25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5082,7 +5082,7 @@
 				(pin input line
 					(at 5.08 33.02 180)
 					(length 5.08)
-					(name "SEG27"
+					(name "SEG26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 				(pin input line
 					(at 5.08 35.56 180)
 					(length 5.08)
-					(name "SEG28"
+					(name "SEG27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 				(pin input line
 					(at 5.08 38.1 180)
 					(length 5.08)
-					(name "SEG29"
+					(name "SEG28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5136,7 +5136,7 @@
 				(pin input line
 					(at 5.08 40.64 180)
 					(length 5.08)
-					(name "SEG30"
+					(name "SEG29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5154,7 +5154,7 @@
 				(pin input line
 					(at 5.08 43.18 180)
 					(length 5.08)
-					(name "SEG31"
+					(name "SEG30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8027,6 +8027,17 @@
 			(justify right bottom)
 		)
 		(uuid "fe6083d9-9aaf-4605-978d-23a80dbda446")
+	)
+	(text "In firmware, seg08 = seg01 for blinking purposes"
+		(exclude_from_sim no)
+		(at 425.45 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff9f7893-7510-4679-968f-7c73ccebc1dc")
 	)
 	(junction
 		(at 467.36 45.72)
@@ -12801,9 +12812,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0051ee60-4bfc-4078-a34b-d250e1675201")
@@ -13306,9 +13317,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cd113e8-a945-4811-98ef-dde46fb19877")
@@ -14501,9 +14512,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "43763f7e-3b5e-4ba1-b98a-5a92176764c6")
 		(property "Reference" "TP2"
@@ -14581,7 +14592,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4652471d-0066-4f24-a566-bf178e821a1b")
 		(property "Reference" "KPD1"
@@ -14842,7 +14853,7 @@
 		(dnp no)
 		(uuid "52c2fa98-059f-4aa6-af4b-f1b45c016418")
 		(property "Reference" "LCD1"
-			(at 448.945 168.91 0)
+			(at 448.31 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14884,28 +14895,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 438.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 438.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Max Height" ""
 			(at 438.15 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15910,9 +15899,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "707463f2-8ada-4ad8-bc72-d69cc8317548")
 		(property "Reference" "TP4"
@@ -20585,9 +20574,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f79cd31d-4c28-4fbd-afe5-f8ef3f6de9ef")
