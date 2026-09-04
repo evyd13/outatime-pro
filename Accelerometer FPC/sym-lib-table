@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "OutatimeProAccelerometer") (type "KiCad") (uri "${KIPRJMOD}/libs/OutatimeProAccelerometer.kicad_sym") (options "") (descr ""))
-)
