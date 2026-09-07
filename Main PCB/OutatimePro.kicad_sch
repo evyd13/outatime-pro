@@ -9194,6 +9194,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 167.64) (xy 245.11 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7503bc-c8d0-474c-b9e6-f19cc40cf3c0")
+	)
+	(wire
+		(pts
 			(xy 229.87 133.35) (xy 245.11 133.35)
 		)
 		(stroke
@@ -9844,6 +9854,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 170.18) (xy 245.11 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e74b17-98d5-4a5a-963e-ddff63686171")
+	)
+	(wire
+		(pts
 			(xy 101.6 123.19) (xy 101.6 133.35)
 		)
 		(stroke
@@ -10341,16 +10361,6 @@
 			(type default)
 		)
 		(uuid "aabb6953-b247-48bf-9bb5-db41360cb13e")
-	)
-	(wire
-		(pts
-			(xy 245.11 167.64) (xy 232.41 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aadc9050-c1da-4174-bbb8-e77c46ff8e5d")
 	)
 	(wire
 		(pts
@@ -10901,16 +10911,6 @@
 			(type default)
 		)
 		(uuid "e2567c7e-dc66-46fd-a758-12da52f695e2")
-	)
-	(wire
-		(pts
-			(xy 245.11 170.18) (xy 232.41 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2579bb5-3b28-4751-a08a-e5f5582d57d5")
 	)
 	(wire
 		(pts
@@ -16482,6 +16482,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 215.9 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "7507c129-2d94-4ecd-9743-39e25b0b7f4c")
+		(property "Reference" "TP5"
+			(at 218.44 163.0679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PB01"
+			(at 218.44 165.6079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.0mm"
+			(at 220.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 215.9 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" ""
+			(at 215.9 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "087054b7-4ee5-45ef-b742-f993fa2a02ca")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 54.61 38.1 90)
 		(unit 1)
@@ -21786,6 +21875,95 @@
 			(project "OutatimePro"
 				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 207.01 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "fd67d7b5-965c-4718-95fc-fbff23023701")
+		(property "Reference" "TP6"
+			(at 209.55 165.6079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PB02"
+			(at 209.55 168.1479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OutatimePro:TestPoint_Pad_D1.0mm"
+			(at 212.09 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 207.01 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" ""
+			(at 207.01 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "053eb8fd-b9fa-4396-a9bf-4e13ec4a9851")
+		)
+		(instances
+			(project "OutatimePro"
+				(path "/524ea2ee-4ba7-44dc-a60b-09b30277d096"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

@@ -18,7 +18,7 @@ Version number is date formate yyMMDD, August 25th 2026 would be v260825.
 The following still needs work:
 
 - Firmware needs to be finished (work has started!)
-- figure out if the selection signals for PAM need to be connected to GPIO or always HIGH.
+- figure out if the selection signals for PAM8904 need to be connected to GPIO or always HIGH.
 - PCB needs to be ordered and tested (I intend to do this in a few months time, need to gather funds for a prototype)
 - It needs to be worn and loved!!
 
@@ -29,7 +29,7 @@ Bootloader.h is generated from https://github.com/joeycastillo/uf2-samdx1.
 (Thanks @devolov!)
 
 # LCD
-The LCD is fairly simple. It has 35 pins, of which the leftmost is not connected. The first 3 connected pins are common, the rest are segments. Mapping can be found within the emulator svg file or watch_common_display.h.
+The LCD is fairly simple. It has 35 pins, of which the leftmost is not connected. The first 3 connected pins are common, the rest are segments. Mapping can be found within the emulator svg file or watch_common_display.h. (Seg08 and seg01 are swapped in software to allow blinking)
 
 # Thanks to and relevant projects
 - Joey Castillo for Sensor Watch, which this project is mostly based on. https://github.com/joeycastillo/Sensor-Watch/tree/main
