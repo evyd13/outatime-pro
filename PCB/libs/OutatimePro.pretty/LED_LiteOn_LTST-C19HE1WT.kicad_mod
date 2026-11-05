@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.8 0)
 		(layer "F.SilkS")
-		(uuid "91a52101-0468-46ff-9196-ca5e65dc5974")
+		(uuid "98cfb5b8-7add-44b2-9951-65bc129c997d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "LED_LiteOn_LTST-C19HE1WT"
 		(at 0 1.6 0)
 		(layer "F.Fab")
-		(uuid "261824e5-7645-4a93-bd92-07062e5ec4bf")
+		(uuid "e54b779f-4322-4363-a240-41788a815bb6")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d9fede11-1440-478e-8be1-ba3bc88f0dec")
+		(uuid "14725e70-0b5c-4157-a9a0-2a937278bf5a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb6cadbc-bcb8-4f81-bd72-81968c92139c")
+		(uuid "e843a9a5-aa49-4702-8689-a801e2366203")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,24 +56,24 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.95 -0.35)
+		(start -0.95 -0.8)
 		(end -0.95 0.8)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3a9b8c02-393d-4982-8b95-fc8511d63afa")
+		(uuid "616cbb8c-d690-4711-8b67-79cd7083dcea")
 	)
 	(fp_line
-		(start 0.95 -0.8)
+		(start 0.95 -0.35)
 		(end 0.95 0.8)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9e7c529d-6938-4197-8d27-d7a3b3a59748")
+		(uuid "25b24516-47cb-4dbc-af6e-75bae1b675e4")
 	)
 	(fp_line
 		(start -1.05 -1.4)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2e702c2b-a1dd-41ab-8c27-a6d7256420a2")
+		(uuid "0bbedfc4-1c3e-49bf-9554-5a6d8141940b")
 	)
 	(fp_line
 		(start -1.05 1.4)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0f514ed5-1d12-4498-b42f-c6a39d380223")
+		(uuid "21f3f575-9e0a-4197-bd44-d2823e7a9c62")
 	)
 	(fp_line
 		(start 1.05 -1.4)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a911fbf2-6b6b-4464-b11f-8998bde96b79")
+		(uuid "43e74957-2414-4c24-af9a-fdec41b96d67")
 	)
 	(fp_line
 		(start 1.05 1.4)
@@ -113,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e43f3bac-8e95-43d9-9f07-d44f72c7aaa0")
+		(uuid "4a40f4b3-25ea-40d2-bae2-b1cdd6e623d9")
 	)
 	(fp_line
 		(start -0.8 -0.4)
@@ -123,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8e6129cd-71df-4576-a66c-22d8ba2dd291")
+		(uuid "e35f2286-cc86-475e-a091-d0c6aeb7e7e7")
 	)
 	(fp_line
 		(start -0.8 0.8)
@@ -133,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8530b8ad-917c-454d-8193-611ab38eec48")
+		(uuid "0070b23b-9974-452d-8443-756c711705af")
 	)
 	(fp_line
 		(start -0.4 -0.8)
@@ -143,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fc01f54e-1ab1-4db7-b879-b317846d3428")
+		(uuid "fed5fbc3-3350-4c6f-93a2-7c3d12666ce2")
 	)
 	(fp_line
 		(start 0.8 -0.8)
@@ -153,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b2e3ff5c-aac2-40bf-9008-0a2c2f2bb434")
+		(uuid "759b2cf6-fd71-4564-99f7-331e610dd77d")
 	)
 	(fp_line
 		(start 0.8 0.8)
@@ -163,12 +163,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f29297d0-e5fb-4b14-823a-b0453912700b")
+		(uuid "f7c1cbae-22b2-4bf6-b3a5-bdfea79cb62f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "775d0192-731c-424a-b5f8-57fb8be6c313")
+		(uuid "39a6d066-93ad-419d-bf7a-9c58301c663a")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -180,25 +180,25 @@
 		(at -0.425 -0.725)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d7ada053-2b5c-44c3-8463-30535f0829c6")
+		(uuid "a4229a16-c2a3-400a-b0c6-447c93d079cb")
 	)
 	(pad "2" smd rect
 		(at 0.425 -0.725)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5685ee3f-0d3e-4d5e-a5a9-b9862a1f21b8")
+		(uuid "4fd030a9-ca5e-4f65-8a8b-c208b50ad92f")
 	)
 	(pad "3" smd rect
 		(at 0.425 0.725)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1fd6c2ef-85c2-45e4-b8cb-0be802654dbe")
+		(uuid "6f41c7ef-1d20-481f-bc2e-c84abde8acff")
 	)
 	(pad "4" smd rect
 		(at -0.425 0.725)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c3b02a73-1cec-43e7-9a87-fc33a2f7aaef")
+		(uuid "eace37ff-ad21-433d-a89f-548f1b5b4973")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/OutatimePro.pretty/packages3d/LED_LiteOn_LTST-C19HE1WT.step"
