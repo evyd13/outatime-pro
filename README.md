@@ -26,6 +26,7 @@ The following still needs work:
 I contacted devolov, they said to me that the firmware needs to be flashed with utils/flash_watch_pyruler using Adafruit PyRuler or Trinket. (I intend to use Seeed XIAO or maybe Pi Pico.)
 
 Bootloader.h is generated from https://github.com/joeycastillo/uf2-samdx1.
+There is an issue with building the bootloader, please see [this](https://github.com/joeycastillo/second-movement/issues/182) issue. 
 (Thanks @devolov!)
 
 # LCD
